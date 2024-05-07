@@ -2,9 +2,25 @@
 body {
 	background-color:rgb(78, 103, 164);
 }
+
+.column {
+	width: 100%;
+}
+
 /*styled for screens 600px wide and larger */
 @media screen and (width > 600px) {
 	body {
 		background-color: palegreen;
 	}
+/* Create three equal columns that float next to each other */
+	.column {
+	float: left;
+	width: 33.33%;
+  }
+  /* Clear floats after the columns */
+	.row:after {
+	content: "";
+	display: table;
+	clear: both;
+ 	 }
 }
