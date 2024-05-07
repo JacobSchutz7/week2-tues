@@ -1,0 +1,10 @@
+/*styled for smaller screens */
+body {
+	background-color:rgb(78, 103, 164);
+}
+/*styled for screens 600px wide and larger */
+@media screen and (width > 600px) {
+	body {
+		background-color: palegreen;
+	}
+}
